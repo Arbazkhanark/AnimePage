@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: rgba(201, 198, 198, 0.671);
+    color: black;
+    height: fit-content;
+    /* background-image: url(/img/nav1.jpeg); */
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+}
+.links li{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    /* margin-top: 10px;  */
+    padding: 10px;
+    font-size:x-large;
+    font-weight: 700;
+    font-family: "ubuntu";
+    text-shadow: 4px 5px 2px black;
+    cursor: pointer;
+}
+
+
+main{
+    width: 100%;
+    background-color: black;
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+.intro{
+    display: flex;
+}
+
+main video{
+    width: 700px;
+    height: 400px;
+}
+
+main h1{
+    color: white;
+    font-family:monospace;
+    font-weight: 300;
+    margin: auto;
+}
+
+.hero{
+    filter: brightness(50%);
+}
+
+.title{
+    position:absolute;
+    margin: 20px;
+    z-index: 1;
+}
+
+.title button{
+    width: 150px;
+    padding: 15px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+    border-radius: 25px;
+}
+
+.trends{
+    margin-top: 50px;
+    /* filter: brightness(); */
+    display: flex;
+    justify-content:space-between;
+}
+
+.trendsHeading{
+    color: white;
+    font-size: x-large;
+    text-decoration:underline;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+
+
+.trendsLeft{
+    display: flex;
+    margin: 25px;
+}
+
+.trendsRight img{
+    width: 600px;
+    height: 500px;
+    margin-right: 25px;
+}
+
+
+.card{
+    /* width: 300px; */
+    background-color: white;
+    color: black;
+    margin: 20px;
+    height: 350px;
+}
+
+.card img{
+    width: 250px;
+    align-self: center;
+}
+
+.details{
+    color: black;
+    padding: 10px;
+}
+
+
+.mainCard img{
+    filter: brightness(50%);
+}
+
+
+
+.coming{
+    background-color: white;
+    height: 250px;
+    filter: brightness(50%);
+    text-align: center;
+}
+
+.coming button{
+    padding: 10px;
+    font-size: larger;
+    margin: 20px;
+
+}
+
+.coming img{
+    width: 100%;
+    /* height: 400px; */
+}
+
+
+.anime{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.singleCart{
+    width: 350px;
+    background-color: white;
+    margin: 20px;
+}
+
+
+
+
+.slider{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    padding: 10px;
+}
+
